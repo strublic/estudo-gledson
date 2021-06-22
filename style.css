@@ -1,0 +1,46 @@
+* {
+box-sizing: border-box;
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+margin-bottom: auto;
+}
+
+.cabeçalho{
+    background-color: gray;
+    color:white;
+    height: 20%;
+    text-align: center;
+    font-size: 60;
+}
+
+.título{
+    text-align: center;
+}
+
+.navegador{
+    background-color: rgb(192, 192, 192);
+    width: 30%;
+    float: left;
+    height: 50%;
+    padding: 20px ;
+}
+
+.navegador-ul{
+    padding: 0px;
+    list-style:none;
+    }
+
+.container{
+    float:left;
+    color:black;
+    background-color:  rgb(238, 238, 238);
+    width: 70%; height: 50%;
+    padding: 20px;
+}
+
+.rodapé{
+    color: white;
+    background-color: gray;
+    text-align: center;
+}
