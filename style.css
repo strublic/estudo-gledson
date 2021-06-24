@@ -55,7 +55,66 @@ margin-bottom: auto;
     background-color:  rgb(238, 238, 238);
     width: 70%; height: 50%;
     padding: 20px;
+    border:#000 2px;
 }
+
+.bg-promoção{
+    position: relative;
+    height: 450px; width: 750;
+    background-color:#f6ddff;
+}
+
+
+.promoção-janela{
+    height: 430px; width: 275px;
+    left: -260px;
+    top: 10px;
+    position: relative;
+    background-color:#0000;
+    border-style: solid; border-radius: 7px; border-width:thin; border-color:#af9cb6;
+}
+
+.diashospedados{
+    font-size: large;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 10px;
+    padding-left: 5px; padding-bottom: 2px;
+    position: relative;
+    left: -90px; top: -5px;
+    height: 13px; width:60px;
+    background-color: #3a00ff;
+    border-radius: 3px;
+}
+
+.voosehosp{
+text-transform: uppercase;
+font-family: Helvetica ; 
+color: #43453a;
+font-size: large;
+font-weight: bold;
+padding-left: 17px;
+font-size:10px;
+position: relative;
+top: 7px;
+}
+
+.Pacotes{
+color: #43453a;
+font-weight:700;
+padding-left: 17px;
+font-size:20px;
+position: relative;
+top: 17px;
+}
+
+.score{
+    background-color: #ff912e;
+    border-radius: 2px; border: 2px; border-color: #b0b49f;
+    width: 30px;
+    position: relative; left: -105px; top: 25px;
+    color: #fff; font-weight: bold;
+ }
 
 .rodapé{
     color: rgb(20, 66, 126);
