@@ -6,7 +6,6 @@ margin-top: auto;
 margin-bottom: auto;
 }
 
-
 .cabeçalho{
     background-color:rgb(204, 209, 235);
     color:rgb(20, 66, 126);
@@ -53,24 +52,30 @@ margin-bottom: auto;
     float:left;
     color:#000;
     background-color:  rgb(238, 238, 238);
-    width: 70%; height: 50%;
+    width: 70%; height: 35%;
     padding: 20px;
     border:#000 2px;
+    position: relative; top:initial;
 }
 
 .bg-promoção{
-    position: relative;
-    height: 450px; width: 750;
-    background-color:#f6ddff;
+    position:relative; z-index: -1; top: -552px; right: 4px;
+    height: 564px; width: 850;
+    background-color:#c1bbd1;
+    border-radius: 7px;
+
+}
+
+table, td, td, td {
+    border: 0px;
 }
 
 
 .promoção-janela{
-    height: 430px; width: 275px;
-    left: -260px;
+    height: 550px; width: 275px;
     top: 10px;
     position: relative;
-    background-color:#0000;
+    background-color:#fff;
     border-style: solid; border-radius: 7px; border-width:thin; border-color:#af9cb6;
 }
 
@@ -103,22 +108,117 @@ top: 7px;
 color: #43453a;
 font-weight:700;
 padding-left: 17px;
-font-size:20px;
+font-size:20px; font-family: courier;
 position: relative;
-top: 17px;
+top: 13px;
 }
 
 .score{
     background-color: #ff912e;
     border-radius: 2px; border: 2px; border-color: #b0b49f;
-    width: 30px;
-    position: relative; left: -105px; top: 25px;
-    color: #fff; font-weight: bold;
- }
+    width: 23px; height: 17px;
+    position: relative; left: -110px; top: 20px;
+    color: #fff; font-weight: bold; font-family: trebuchet ms; font-size: 11px;
+    text-align-last:center; padding-top: 2;
+}
+
+.estrela{
+    font-size: 19;
+    color: #ff5e00;
+    position: relative; right: -45px; top: -3px;
+}
+
+.companhia{
+    color: #43453a; font-family: trebuchet MS; font-size: 11; font-weight: bold ;
+    position:relative; left: 15px; top: 8px;
+}
+
+.café{
+border-color: #43453a; border-style: solid; border-width:thin;
+width: 135px; height: 15px; 
+color: #43453a; font-family: trebuchet MS; font-size: 10; font-weight: bold ;
+padding-bottom: 2; padding-left: 7 ; padding-top: 1;
+position: relative; left: -53px; top: 25px;
+}
+
+.reservas{
+    border-color: #43453a; border-style: solid; border-width:thin;
+    width: 110px; height: 15px; 
+    color: #3a00ff; font-family: verdana; font-size: 10; font-weight: bold;
+    padding-left: 15;
+    position: relative; left: -70px; top: 25px;
+    }
+
+.oferta{
+        border-color: #43453a; border-style: solid; border-width:thin; background-color:#fffb00;
+        width: 90px; height: 15px; 
+        color: #3a00ff; font-family: Verdana; font-size: 9; font-weight:bold;
+        padding-bottom: 2; padding-left: 2; padding-top: 1;
+        position: relative; left: 35px; top:10px;
+        }
+
+.transfer{
+    border-color: #43453a; border-style: solid; border-width:thin;
+    width: 85px; height: 15px; 
+    color: #43453a; font-family: trebuchet MS; font-size: 10; font-weight: bold ;
+    padding-bottom: 1; padding-left: 7; padding-top: 1;
+    position: relative; left: -82px; top: 20px;
+}
+
+.transfer3{
+    border-color: #43453a; border-style: solid; border-width:thin;
+    width: 85px; height: 15px; 
+    color: #43453a; font-family: trebuchet MS; font-size: 10; font-weight: bold ;
+    padding-bottom: 1; padding-left: 7; padding-top: 1;
+    position: relative; left: 35px; top: 10px;
+}
+
+.allinclusive{
+    border-color: #43453a; border-style: solid; border-width:thin;
+    width: 75px; height: 15px; 
+    color: #43453a; font-family: trebuchet MS; font-size: 10; font-weight: bold ;
+    padding-bottom: 2; padding-left: 7 ; padding-top: 1;
+    position: relative; left: -87px; top: 20px;
+    }
+
+.Quebradelinha{
+ position:sticky;
+ top: 84%;
+}
+
+.Preçoporpessoa{
+position: fixed;
+top: 525px; padding-left: 15px;
+color: #43453a; font-family: trebuchet MS; font-size: 12; font-weight: bold ;
+}
+
+.Cifrao{
+    position:fixed; 
+    top: 555px; padding-left: 15px;
+    color: #43453a; font-family: trebuchet MS; font-size: 20; font-weight: bold ;
+    }
+    
+.valor{
+position: fixed; 
+top: 545px; padding-left: 42px;
+color: #43453a; font-family: trebuchet MS; font-size: 35; font-weight: bold ;
+}
+
+.valorantigo{
+    position: fixed; 
+    top: 560px; padding-left: 105px;
+    color: #cbb2cc; font-family: trebuchet MS; font-size: 18; font-weight: bold ; font-style: unset; text-decoration-line: line-through;
+    }
+
+    .valorantigo2{
+        position: fixed; 
+        top: 560px; padding-left: 143px;
+        color: #cbb2cc; font-family: trebuchet MS; font-size: 18; font-weight: bold ; font-style: unset; text-decoration-line: line-through;
+        }
 
 .rodapé{
     color: rgb(20, 66, 126);
-    text-align: center;
-    font-style: italic;
+    text-align: center; font-style: italic;
     background-color: rgb(204, 209, 235);
+    position:relative; top: 500px;
 }
