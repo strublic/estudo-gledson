@@ -30,13 +30,14 @@ margin-bottom: auto;
     text-align: center;
     position: relative;
     text-decoration: underline;
+    color: #43453a;
 }
 
 .navegador{
-    background-color: rgba(102, 137, 233, 0.87);
+    background-color:#b2c0cc;
     width: 30%;
     float: left;
-    height: 50%;
+    height: 150%;
     padding: 20px;
 }
 
@@ -52,10 +53,10 @@ margin-bottom: auto;
     float:left;
     color:#000;
     background-color:  rgb(238, 238, 238);
-    width: 70%; height: 35%;
+    width: 70%; height: 150%;
     padding: 20px;
     border:#000 2px;
-    position: relative; top:initial;
+    position: relative; top:initial; z-index: -1;
 }
 
 .bg-promoção{
@@ -182,37 +183,37 @@ position: relative; left: -53px; top: 25px;
     }
 
 .Quebradelinha{
- position:sticky;
- top: 84%;
+ position:relative;
+ top: 20%;
 }
 
 .Preçoporpessoa{
-position: fixed;
-top: 525px; padding-left: 15px;
+position: absolute;
+top: 480px; padding-left: 15px;
 color: #43453a; font-family: trebuchet MS; font-size: 12; font-weight: bold ;
 }
 
 .Cifrao{
-    position:fixed; 
-    top: 555px; padding-left: 15px;
+    position:absolute; 
+    top: 515px; padding-left: 15px;
     color: #43453a; font-family: trebuchet MS; font-size: 20; font-weight: bold ;
     }
     
 .valor{
-position: fixed; 
-top: 545px; padding-left: 42px;
+position:absolute; 
+top: 500px; padding-left: 42px;
 color: #43453a; font-family: trebuchet MS; font-size: 35; font-weight: bold ;
 }
 
 .valorantigo{
-    position: fixed; 
-    top: 560px; padding-left: 105px;
+    position: absolute; 
+    top: 520px; padding-left: 105px;
     color: #cbb2cc; font-family: trebuchet MS; font-size: 18; font-weight: bold ; font-style: unset; text-decoration-line: line-through;
     }
 
     .valorantigo2{
-        position: fixed; 
-        top: 560px; padding-left: 143px;
+        position: absolute; 
+        top: 520px; padding-left: 143px;
         color: #cbb2cc; font-family: trebuchet MS; font-size: 18; font-weight: bold ; font-style: unset; text-decoration-line: line-through;
         }
 
@@ -220,5 +221,5 @@ color: #43453a; font-family: trebuchet MS; font-size: 35; font-weight: bold ;
     color: rgb(20, 66, 126);
     text-align: center; font-style: italic;
     background-color: rgb(204, 209, 235);
-    position:relative; top: 500px;
+    position:relative; top: 600px; width: 850px;
 }
