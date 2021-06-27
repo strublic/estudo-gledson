@@ -1,46 +1,45 @@
 * {
-box-sizing: border-box;
-margin-left: auto;
-margin-right: auto;
-margin-top: auto;
-margin-bottom: auto;
-}
-
-.cabeçalho{
-    background-color:rgb(204, 209, 235);
-    color:rgb(20, 66, 126);
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    }
+    
+header{
+    background-color:#9ca6b6;
+    color:#2800ad;
     font-size: 60;
     text-align:left;
     display:flex;
-}
-
+    }
+    
 .logo{
     left: -100px;
     position: relative;
     align-items: flex;
     padding: -20px;
-}
+    }
 
 .cidade{
     padding-right: 400px;
-}
+    }
 
-
-.título{
+.titulo{
     text-align: center;
     position: relative;
     text-decoration: underline;
     color: #43453a;
-}
-
+    }
+    
 .navegador{
     background-color:#b2c0cc;
     width: 30%;
     float: left;
     height: 150%;
     padding: 20px;
-}
-
+    }
+    
 .navegador-ul{
     font-family: Verdana;
     padding: 0px;
@@ -52,35 +51,37 @@ margin-bottom: auto;
     font-family: Verdana;
     float:left;
     color:#000;
-    background-color:  rgb(238, 238, 238);
-    width: 70%; height: 150%;
+    background-color:  #fff;
+    width: 60%; 
     padding: 20px;
     border:#000 2px;
     position: relative; top:initial; z-index: -1;
+    }
+
+.texto{
+    color: #43453a;
 }
 
-.bg-promoção{
-    position:relative; z-index: -1; top: -552px; right: 4px;
+.bg-promocao{
+    position:relative; z-index: -1; top: 200px; left: 190px;
     height: 564px; width: 850;
     background-color:#c1bbd1;
     border-radius: 7px;
-
-}
+    }
 
 table, td, td, td {
     border: 0px;
-}
-
-
-.promoção-janela{
+    }
+    
+.promocao-janela{
     height: 550px; width: 275px;
-    top: 10px;
+    top:-885px; right: 0px; ;
     position: relative;
     background-color:#fff;
     border-style: solid; border-radius: 7px; border-width:thin; border-color:#af9cb6;
-}
+    }
 
-.diashospedados{
+.dias-hospedados{
     font-size: large;
     text-transform: uppercase;
     color: #fff;
@@ -91,29 +92,29 @@ table, td, td, td {
     height: 13px; width:60px;
     background-color: #3a00ff;
     border-radius: 3px;
-}
+    }
 
-.voosehosp{
-text-transform: uppercase;
-font-family: Helvetica ; 
-color: #43453a;
-font-size: large;
-font-weight: bold;
-padding-left: 17px;
-font-size:10px;
-position: relative;
-top: 7px;
-}
-
-.Pacotes{
-color: #43453a;
-font-weight:700;
-padding-left: 17px;
-font-size:20px; font-family: courier;
-position: relative;
-top: 13px;
-}
-
+.voos-hospedagem{
+    text-transform: uppercase;
+    font-family: Helvetica ; 
+    color: #43453a;
+    font-size: large;
+    font-weight: bold;
+    padding-left: 17px;
+    font-size:10px;
+    position: relative;
+    top: 7px;
+    }
+    
+.pacotes{
+    color: #43453a;
+    font-weight:700;
+    padding-left: 17px;
+    font-size:20px; font-family: courier;
+    position: relative;
+    top: 13px;
+    }
+    
 .score{
     background-color: #ff912e;
     border-radius: 2px; border: 2px; border-color: #b0b49f;
@@ -121,26 +122,26 @@ top: 13px;
     position: relative; left: -110px; top: 20px;
     color: #fff; font-weight: bold; font-family: trebuchet ms; font-size: 11px;
     text-align-last:center; padding-top: 2;
-}
-
+    }
+    
 .estrela{
     font-size: 19;
     color: #ff5e00;
     position: relative; right: -45px; top: -3px;
-}
+    }
 
 .companhia{
     color: #43453a; font-family: trebuchet MS; font-size: 11; font-weight: bold ;
     position:relative; left: 15px; top: 8px;
-}
+    }
 
-.café{
-border-color: #43453a; border-style: solid; border-width:thin;
-width: 135px; height: 15px; 
-color: #43453a; font-family: trebuchet MS; font-size: 10; font-weight: bold ;
-padding-bottom: 2; padding-left: 7 ; padding-top: 1;
-position: relative; left: -53px; top: 25px;
-}
+.cafe{
+    border-color: #43453a; border-style: solid; border-width:thin;
+    width: 135px; height: 15px; 
+    color: #43453a; font-family: trebuchet MS; font-size: 10; font-weight: bold ;
+    padding-bottom: 2; padding-left: 7 ; padding-top: 1;
+    position: relative; left: -53px; top: 25px;
+    }
 
 .reservas{
     border-color: #43453a; border-style: solid; border-width:thin;
@@ -151,12 +152,12 @@ position: relative; left: -53px; top: 25px;
     }
 
 .oferta{
-        border-color: #43453a; border-style: solid; border-width:thin; background-color:#fffb00;
-        width: 90px; height: 15px; 
-        color: #3a00ff; font-family: Verdana; font-size: 9; font-weight:bold;
-        padding-bottom: 2; padding-left: 2; padding-top: 1;
-        position: relative; left: 35px; top:10px;
-        }
+    border-color: #43453a; border-style: solid; border-width:thin; background-color:#fffb00;
+    width: 90px; height: 15px; 
+    color: #3a00ff; font-family: Verdana; font-size: 9; font-weight:bold;
+    padding-bottom: 2; padding-left: 2; padding-top: 1;
+    position: relative; left: 35px; top:10px;
+    }
 
 .transfer{
     border-color: #43453a; border-style: solid; border-width:thin;
@@ -164,7 +165,7 @@ position: relative; left: -53px; top: 25px;
     color: #43453a; font-family: trebuchet MS; font-size: 10; font-weight: bold ;
     padding-bottom: 1; padding-left: 7; padding-top: 1;
     position: relative; left: -82px; top: 20px;
-}
+    }
 
 .transfer3{
     border-color: #43453a; border-style: solid; border-width:thin;
@@ -172,9 +173,9 @@ position: relative; left: -53px; top: 25px;
     color: #43453a; font-family: trebuchet MS; font-size: 10; font-weight: bold ;
     padding-bottom: 1; padding-left: 7; padding-top: 1;
     position: relative; left: 35px; top: 10px;
-}
+    }
 
-.allinclusive{
+.all-inclusive{
     border-color: #43453a; border-style: solid; border-width:thin;
     width: 75px; height: 15px; 
     color: #43453a; font-family: trebuchet MS; font-size: 10; font-weight: bold ;
@@ -182,44 +183,47 @@ position: relative; left: -53px; top: 25px;
     position: relative; left: -87px; top: 20px;
     }
 
-.Quebradelinha{
- position:relative;
- top: 20%;
-}
+.quebra-de-linha{
+    position:relative;
+    top: 20%;
+    }
 
-.Preçoporpessoa{
-position: absolute;
-top: 480px; padding-left: 15px;
-color: #43453a; font-family: trebuchet MS; font-size: 12; font-weight: bold ;
-}
+.preco-por-pessoa{
+    position: absolute;
+    top: 480px; padding-left: 15px;
+    color: #43453a; font-family: trebuchet MS; font-size: 12; font-weight: bold ;
+    }
 
-.Cifrao{
+.cifrao{
     position:absolute; 
     top: 515px; padding-left: 15px;
+    color: #43453a; font-family: trebuchet MS; font-size: 20; font-weight: bold ;
     color: #4e5046; font-family: trebuchet MS; font-size: 20; font-weight: bold ;
-    }
+        }
     
 .valor{
-position:absolute; 
-top: 500px; padding-left: 42px;
-color: #43453a; font-family: trebuchet MS; font-size: 35; font-weight: bold ;
-}
-
-.valorantigo{
+    position:absolute; 
+    top: 500px; padding-left: 42px;
+    color: #43453a; font-family: trebuchet MS; font-size: 35; font-weight: bold ;
+    }
+    
+.valor-antigo{
     position: absolute; 
     top: 520px; padding-left: 105px;
     color: #cbb2cc; font-family: trebuchet MS; font-size: 18; font-weight: bold ; font-style: unset; text-decoration-line: line-through;
     }
 
-    .valorantigo2{
-        position: absolute; 
-        top: 520px; padding-left: 143px;
-        color: #cbb2cc; font-family: trebuchet MS; font-size: 18; font-weight: bold ; font-style: unset; text-decoration-line: line-through;
-        }
-
-.rodapé{
-    color: rgb(20, 66, 126);
-    text-align: center; font-style: italic;
-    background-color: rgb(204, 209, 235);
-    position:relative; top: 600px; width: 850px;
+.valor-antigo2{
+    position: absolute; 
+    top: 520px; padding-left: 143px;
+    color: #cbb2cc; font-family: trebuchet MS; font-size: 18; font-weight: bold ; font-style: unset; text-decoration-line: line-through;
 }
+
+footer{
+    color:#2800ad;
+    background-color: #9ca6b6;
+    text-align-last: center;
+    font-style: italic;
+    position:relative; bottom: -310px;
+    }
+
